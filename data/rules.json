@@ -1,0 +1,517 @@
+{
+  "_meta": {
+    "scale_note": "Taste scores run from 0 to 1, so penalties are on the same scale: -0.1 to -0.15 is a small nudge that only reorders close calls, -0.2 to -0.3 moves a good match down the list, and -0.35 to -0.5 is strong enough that a perfect match drops below an ordinary one.",
+    "justification_types": {
+      "sourced": "The source says this directly.",
+      "inferred_from_source": "Based on a real source, applied to films and hospital viewing.",
+      "inferred": "My own reasoning; no source says it in these words."
+    },
+    "condition_vocabulary": {
+      "patient": "always | age_lt | age_gte | sensitivity | diagnosis_in | treatment_phase",
+      "content": "flash_in | flash_conf | mpa_in | runtime_gt | runtime_lte | runtime_missing | pacing | intensity | theme_any | accessibility_unknown | accessibility_false"
+    }
+  },
+  "sources": {
+    "EF": "Epilepsy Foundation, Photosensitivity and Seizures - https://www.epilepsy.com/what-is-epilepsy/seizure-triggers/photosensitivity",
+    "ITC": "ITC Guidance Note on Flashing Images and Regular Patterns in Television (hosted by Ofcom, rev. July 2001), paras 2, 3, 3.1.1 - https://www.ofcom.org.uk/__data/assets/pdf_file/0021/16248/gn_flash.pdf",
+    "OFCOM212": "Ofcom Broadcasting Code Rule 2.12, quoted in Ofcom Broadcast Bulletin 178 - https://www.ofcom.org.uk/siteassets/resources/documents/about-ofcom/bulletins/broadcast-bulletins/archive/obb178/obb178.pdf",
+    "MPA": "MPA Classification and Rating Rules, Section 3(C), pp. 7-8 - https://www.filmratings.com/wp-content/uploads/2025/08/rating_rules.pdf",
+    "ACS": "American Cancer Society, Getting Help for Fatigue - https://www.cancer.org/content/dam/cancer-org/cancer-control/en/what-to-do/getting-help-for-fatigue.pdf",
+    "STAN": "Stanford Children's Child Life Entertainment/Special Events Guidelines, items 5, 10, 12 - https://www.stanfordchildrens.org/content/dam/sch/content-public/pdf/Event_Guidelines.pdf",
+    "CWI": "Children's Wisconsin Entertainment and Visitor Guidelines (3/19/2021), 'The Day of your Visit' items 1 and 6 - https://childrenswi.org/-/media/chwlibrary/files/patient-family-experience/cl-entertainment-guidelines.pdf"
+  },
+  "rules": [
+    {
+      "rule_id": "R-01",
+      "name": "Light-sensitive patient, film has flashing",
+      "patient_attribute": "known_sensitivities includes 'photosensitive_seizure_trigger'",
+      "content_attribute": "flashing_strobe_content == 'confirmed_present'",
+      "patient_condition": {
+        "sensitivity": "photosensitive_seizure_trigger"
+      },
+      "content_condition": {
+        "flash_in": [
+          "confirmed_present"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "sourced",
+      "source": "EF; ITC para 3-3.1.1; OFCOM212",
+      "notes": "Flashing can set off seizures in people with photosensitive epilepsy, so these films are removed outright."
+    },
+    {
+      "rule_id": "R-02",
+      "name": "Light-sensitive patient, flashing unknown",
+      "patient_attribute": "known_sensitivities includes 'photosensitive_seizure_trigger'",
+      "content_attribute": "flashing_strobe_content == 'unknown'",
+      "patient_condition": {
+        "sensitivity": "photosensitive_seizure_trigger"
+      },
+      "content_condition": {
+        "flash_in": [
+          "unknown"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "inferred_from_source",
+      "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2",
+      "notes": "If we don't know whether a film has flashing, we don't risk it for this patient."
+    },
+    {
+      "rule_id": "R-03",
+      "name": "Light-sensitive patient, minor flashing reported",
+      "patient_attribute": "known_sensitivities includes 'photosensitive_seizure_trigger'",
+      "content_attribute": "flashing_strobe_content == 'mild'",
+      "patient_condition": {
+        "sensitivity": "photosensitive_seizure_trigger"
+      },
+      "content_condition": {
+        "flash_in": [
+          "mild"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "inferred_from_source",
+      "source": "ITC para 2 (flashing over 5 seconds may be a risk even within limits); EF (triggers vary by person)",
+      "notes": "Even minor reported flashing is removed for this patient; the risk isn't worth one extra film."
+    },
+    {
+      "rule_id": "R-04",
+      "name": "Light-sensitive patient, no flashing known but not confirmed",
+      "patient_attribute": "known_sensitivities includes 'photosensitive_seizure_trigger'",
+      "content_attribute": "flashing_strobe_content == 'none' AND tagging confidence == 'low'",
+      "patient_condition": {
+        "sensitivity": "photosensitive_seizure_trigger"
+      },
+      "content_condition": {
+        "flash_in": [
+          "none"
+        ],
+        "flash_conf": "low"
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.15,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Films with stronger evidence of no flashing rank slightly above ones without it."
+    },
+    {
+      "rule_id": "R-05",
+      "name": "Under 17, R-rated film",
+      "patient_attribute": "age < 17",
+      "content_attribute": "mpa_rating == 'R'",
+      "patient_condition": {
+        "age_lt": 17
+      },
+      "content_condition": {
+        "mpa_in": [
+          "R"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "inferred_from_source",
+      "source": "MPA rules p.8: 'Restricted. Children Under 17 Require Accompanying Parent or Adult Guardian'",
+      "notes": "R-rated films are kept away from under-17s in a hospital setting, where no parent may be present to decide."
+    },
+    {
+      "rule_id": "R-06",
+      "name": "Under 18, NC-17 film",
+      "patient_attribute": "age < 18",
+      "content_attribute": "mpa_rating == 'NC-17'",
+      "patient_condition": {
+        "age_lt": 18
+      },
+      "content_condition": {
+        "mpa_in": [
+          "NC-17"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "sourced",
+      "source": "MPA rules p.8: 'No One 17 and Under Admitted'",
+      "notes": "Follows the rating board's own rule: nobody 17 or under."
+    },
+    {
+      "rule_id": "R-07",
+      "name": "Under 13, PG-13 film",
+      "patient_attribute": "age < 13",
+      "content_attribute": "mpa_rating == 'PG-13'",
+      "patient_condition": {
+        "age_lt": 13
+      },
+      "content_condition": {
+        "mpa_in": [
+          "PG-13"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.25,
+      "justification_type": "sourced",
+      "source": "MPA rules p.7: 'Parents Strongly Cautioned. Some Material May Be Inappropriate For Children Under 13'",
+      "notes": "PG-13 films can still be shown to under-13s, but rank lower."
+    },
+    {
+      "rule_id": "R-08",
+      "name": "Seriously ill child, film about serious illness",
+      "patient_attribute": "age < 18 AND diagnosis_context in [pediatric_oncology, chronic_pediatric_illness]",
+      "content_attribute": "theme_flags includes 'central_serious_illness'",
+      "patient_condition": {
+        "age_lt": 18,
+        "diagnosis_in": [
+          "pediatric_oncology",
+          "chronic_pediatric_illness"
+        ]
+      },
+      "content_condition": {
+        "theme_any": [
+          "central_serious_illness"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "inferred_from_source",
+      "source": "CWI item 6 (no themes such as violence, death, illness, medical care)",
+      "notes": "A child going through serious illness shouldn't be shown a film that is centred on serious illness."
+    },
+    {
+      "rule_id": "R-09",
+      "name": "Adult with cancer, film about serious illness",
+      "patient_attribute": "diagnosis_context == 'adult_oncology'",
+      "content_attribute": "theme_flags includes 'central_serious_illness'",
+      "patient_condition": {
+        "diagnosis_in": [
+          "adult_oncology"
+        ]
+      },
+      "content_condition": {
+        "theme_any": [
+          "central_serious_illness"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.5,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Adults can choose for themselves, so this is a strong penalty rather than a removal."
+    },
+    {
+      "rule_id": "R-10",
+      "name": "Child in hospital, hospital or medical scenes",
+      "patient_attribute": "age < 18",
+      "content_attribute": "theme_flags includes 'medical_care'",
+      "patient_condition": {
+        "age_lt": 18
+      },
+      "content_condition": {
+        "theme_any": [
+          "medical_care"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.3,
+      "justification_type": "inferred_from_source",
+      "source": "CWI item 6 ('medical care')",
+      "notes": "Hospital and medical scenes rank lower for children who are already in hospital."
+    },
+    {
+      "rule_id": "R-11",
+      "name": "Child in hospital, illness subplot",
+      "patient_attribute": "age < 18",
+      "content_attribute": "theme_flags includes 'serious_illness_subplot'",
+      "patient_condition": {
+        "age_lt": 18
+      },
+      "content_condition": {
+        "theme_any": [
+          "serious_illness_subplot"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.2,
+      "justification_type": "inferred_from_source",
+      "source": "CWI item 6 ('illness')",
+      "notes": "An illness subplot is lighter than a whole film about it, so the penalty is smaller."
+    },
+    {
+      "rule_id": "R-12",
+      "name": "Child in hospital, death or loss",
+      "patient_attribute": "age < 18",
+      "content_attribute": "theme_flags includes 'death_or_loss'",
+      "patient_condition": {
+        "age_lt": 18
+      },
+      "content_condition": {
+        "theme_any": [
+          "death_or_loss"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.3,
+      "justification_type": "inferred_from_source",
+      "source": "STAN item 5 ('threatening themes such as death, violence or degradation'); CWI item 6",
+      "notes": "Death and loss rank lower for children, but these films aren't removed, since many classics include them."
+    },
+    {
+      "rule_id": "R-13",
+      "name": "Child in hospital, violence",
+      "patient_attribute": "age < 18",
+      "content_attribute": "theme_flags includes 'violence'",
+      "patient_condition": {
+        "age_lt": 18
+      },
+      "content_condition": {
+        "theme_any": [
+          "violence"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.2,
+      "justification_type": "inferred_from_source",
+      "source": "STAN item 5; CWI item 6",
+      "notes": "Violent themes rank lower for children in hospital."
+    },
+    {
+      "rule_id": "R-14",
+      "name": "Child in hospital, very intense film",
+      "patient_attribute": "age < 18",
+      "content_attribute": "thematic_intensity == 'high'",
+      "patient_condition": {
+        "age_lt": 18
+      },
+      "content_condition": {
+        "intensity": "high"
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.35,
+      "justification_type": "inferred_from_source",
+      "source": "STAN item 5 ('threatening themes'); CWI item 6",
+      "notes": "Very intense films rank lower for children in hospital."
+    },
+    {
+      "rule_id": "R-15",
+      "name": "Young child, scary creatures",
+      "patient_attribute": "age < 10",
+      "content_attribute": "theme_flags includes 'scary_creatures'",
+      "patient_condition": {
+        "age_lt": 10
+      },
+      "content_condition": {
+        "theme_any": [
+          "scary_creatures"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.2,
+      "justification_type": "inferred",
+      "source": "Own reasoning, loosely following STAN item 10 (costumes and masks can frighten children).",
+      "notes": "Scary creatures rank lower for young children."
+    },
+    {
+      "rule_id": "R-16",
+      "name": "Bereaved patient, death or loss",
+      "patient_attribute": "known_sensitivities includes 'grief_sensitive'",
+      "content_attribute": "theme_flags includes 'death_or_loss'",
+      "patient_condition": {
+        "sensitivity": "grief_sensitive"
+      },
+      "content_condition": {
+        "theme_any": [
+          "death_or_loss"
+        ]
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "The patient has said this topic upsets them, so these films are removed."
+    },
+    {
+      "rule_id": "R-17",
+      "name": "Anxious patient, scary or intense film",
+      "patient_attribute": "known_sensitivities includes 'anxiety_sensitive'",
+      "content_attribute": "scary_creatures OR visceral_gore theme OR thematic_intensity == 'high'",
+      "patient_condition": {
+        "sensitivity": "anxiety_sensitive"
+      },
+      "content_condition": {
+        "any_of": [
+          {
+            "theme_any": [
+              "scary_creatures",
+              "visceral_gore"
+            ]
+          },
+          {
+            "intensity": "high"
+          }
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.4,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Scary, gory or very intense films rank well down for patients with anxiety."
+    },
+    {
+      "rule_id": "R-18",
+      "name": "Very tired patient, film over 2.5 hours",
+      "patient_attribute": "treatment_phase == 'active_high_fatigue'",
+      "content_attribute": "runtime_minutes > 150",
+      "patient_condition": {
+        "treatment_phase": "active_high_fatigue"
+      },
+      "content_condition": {
+        "runtime_gt": 150
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.35,
+      "justification_type": "inferred",
+      "source": "Own reasoning, based on the ACS description of cancer fatigue (exhausted, hard to focus, save your energy).",
+      "notes": "Very long films are hard to sit through when exhausted; they rank lower but can still be paused and finished."
+    },
+    {
+      "rule_id": "R-19",
+      "name": "Very tired patient, film over 2 hours",
+      "patient_attribute": "treatment_phase == 'active_high_fatigue'",
+      "content_attribute": "120 < runtime_minutes <= 150",
+      "patient_condition": {
+        "treatment_phase": "active_high_fatigue"
+      },
+      "content_condition": {
+        "runtime_gt": 120,
+        "runtime_lte": 150
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.15,
+      "justification_type": "inferred",
+      "source": "Own reasoning, based on ACS fatigue advice; the hospital guidelines suggest 20-40 minute events (STAN item 12, CWI item 1).",
+      "notes": "A smaller penalty for films that are long but not very long."
+    },
+    {
+      "rule_id": "R-20",
+      "name": "Very tired patient, complicated plot",
+      "patient_attribute": "treatment_phase == 'active_high_fatigue'",
+      "content_attribute": "pacing_complexity == 'dense'",
+      "patient_condition": {
+        "treatment_phase": "active_high_fatigue"
+      },
+      "content_condition": {
+        "pacing": "dense"
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.25,
+      "justification_type": "inferred",
+      "source": "Own reasoning, based on ACS ('can't focus').",
+      "notes": "Complicated plots are hard to follow when tired."
+    },
+    {
+      "rule_id": "R-21",
+      "name": "Very tired patient, length not listed",
+      "patient_attribute": "treatment_phase == 'active_high_fatigue'",
+      "content_attribute": "runtime_minutes is missing",
+      "patient_condition": {
+        "treatment_phase": "active_high_fatigue"
+      },
+      "content_condition": {
+        "runtime_missing": true
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.1,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "A small penalty when a film's length isn't listed."
+    },
+    {
+      "rule_id": "R-22",
+      "name": "Nauseous patient, gory scenes",
+      "patient_attribute": "treatment_phase == 'active_nausea'",
+      "content_attribute": "theme_flags includes 'visceral_gore'",
+      "patient_condition": {
+        "treatment_phase": "active_nausea"
+      },
+      "content_condition": {
+        "theme_any": [
+          "visceral_gore"
+        ]
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.4,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Gory scenes rank well down for patients feeling sick from treatment."
+    },
+    {
+      "rule_id": "R-23",
+      "name": "Nauseous patient, very intense film",
+      "patient_attribute": "treatment_phase == 'active_nausea'",
+      "content_attribute": "thematic_intensity == 'high'",
+      "patient_condition": {
+        "treatment_phase": "active_nausea"
+      },
+      "content_condition": {
+        "intensity": "high"
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.2,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Intense films rank lower for patients feeling sick from treatment."
+    },
+    {
+      "rule_id": "R-24",
+      "name": "Needs subtitles, subtitles not listed",
+      "patient_attribute": "known_sensitivities includes 'needs_subtitles'",
+      "content_attribute": "accessibility.subtitles_available is unknown (null)",
+      "patient_condition": {
+        "sensitivity": "needs_subtitles"
+      },
+      "content_condition": {
+        "accessibility_unknown": "subtitles_available"
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.2,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Films rank slightly lower when subtitle availability isn't listed."
+    },
+    {
+      "rule_id": "R-25",
+      "name": "Needs subtitles, film has none",
+      "patient_attribute": "known_sensitivities includes 'needs_subtitles'",
+      "content_attribute": "accessibility.subtitles_available == false",
+      "patient_condition": {
+        "sensitivity": "needs_subtitles"
+      },
+      "content_condition": {
+        "accessibility_false": "subtitles_available"
+      },
+      "severity": "hard_exclude",
+      "penalty_weight": null,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "If a film definitely has no subtitles, it's removed for patients who need them."
+    },
+    {
+      "rule_id": "R-26",
+      "name": "Needs audio description, not listed",
+      "patient_attribute": "known_sensitivities includes 'needs_audio_description'",
+      "content_attribute": "accessibility.audio_description_available is unknown (null)",
+      "patient_condition": {
+        "sensitivity": "needs_audio_description"
+      },
+      "content_condition": {
+        "accessibility_unknown": "audio_description_available"
+      },
+      "severity": "soft_penalty",
+      "penalty_weight": -0.2,
+      "justification_type": "inferred",
+      "source": "Own reasoning.",
+      "notes": "Films rank slightly lower when audio description availability isn't listed."
+    }
+  ]
+}

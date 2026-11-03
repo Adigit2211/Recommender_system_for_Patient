@@ -1,0 +1,702 @@
+{
+  "summary": {
+    "patients": 15,
+    "picks_that_break_a_rule": 0,
+    "final_checks_passed": 15,
+    "different_movies_across_all_picks": 41,
+    "average_overlap_between_two_patients": 0.069
+  },
+  "patients": [
+    {
+      "id": "P01",
+      "patient": "9, cancer treatment, very tired, flashing lights trigger seizures",
+      "top5": [
+        "Despicable Me",
+        "Finding Dory",
+        "Inside Out",
+        "Ratatouille",
+        "Shrek"
+      ],
+      "scores": [
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 19,
+      "still_allowed": 47,
+      "taken_out_of_top5_by_rules": [
+        "Big Hero 6",
+        "Cars"
+      ]
+    },
+    {
+      "id": "P02",
+      "patient": "6, cancer treatment, nauseous, anxious",
+      "top5": [
+        "WALL-E",
+        "Luca",
+        "Cars",
+        "Despicable Me",
+        "Dumbo"
+      ],
+      "scores": [
+        [
+          0.9,
+          0.0,
+          0.9
+        ],
+        [
+          0.88,
+          0.0,
+          0.88
+        ],
+        [
+          0.7666,
+          0.0,
+          0.7666
+        ],
+        [
+          0.7666,
+          0.0,
+          0.7666
+        ],
+        [
+          0.7666,
+          0.0,
+          0.7666
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 5,
+      "still_allowed": 61,
+      "taken_out_of_top5_by_rules": [
+        "My Neighbor Totoro",
+        "Bambi",
+        "Big Hero 6"
+      ]
+    },
+    {
+      "id": "P03",
+      "patient": "15, recovering from cancer, recently bereaved",
+      "top5": [
+        "Mrs. Doubtfire",
+        "La La Land",
+        "Groundhog Day",
+        "The Princess Diaries",
+        "Mamma Mia!"
+      ],
+      "scores": [
+        [
+          0.8036,
+          0.0,
+          0.8036
+        ],
+        [
+          0.75,
+          0.0,
+          0.75
+        ],
+        [
+          0.4755,
+          0.0,
+          0.4755
+        ],
+        [
+          0.4755,
+          0.0,
+          0.4755
+        ],
+        [
+          0.4531,
+          0.0,
+          0.4531
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 22,
+      "still_allowed": 43,
+      "taken_out_of_top5_by_rules": [
+        "Chef"
+      ]
+    },
+    {
+      "id": "P04",
+      "patient": "12, long-term illness, photosensitive, needs subtitles",
+      "top5": [
+        "Paddington",
+        "Ponyo",
+        "The Wizard of Oz",
+        "Luca",
+        "How to Train Your Dragon"
+      ],
+      "scores": [
+        [
+          0.8636,
+          -0.35,
+          0.5136
+        ],
+        [
+          0.8636,
+          -0.35,
+          0.5136
+        ],
+        [
+          0.8636,
+          -0.35,
+          0.5136
+        ],
+        [
+          0.8364,
+          -0.35,
+          0.4864
+        ],
+        [
+          0.8636,
+          -0.55,
+          0.3136
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 19,
+      "still_allowed": 47,
+      "taken_out_of_top5_by_rules": [
+        "Harry Potter and the Sorcerer's Stone",
+        "The Lord of the Rings: The Fellowship of the Ring"
+      ]
+    },
+    {
+      "id": "P05",
+      "patient": "45, cancer treatment, very tired",
+      "top5": [
+        "Forrest Gump",
+        "La La Land",
+        "Chef",
+        "Wonder",
+        "Bambi"
+      ],
+      "scores": [
+        [
+          0.9333,
+          -0.15,
+          0.7833
+        ],
+        [
+          0.9,
+          -0.15,
+          0.75
+        ],
+        [
+          0.7333,
+          0.0,
+          0.7333
+        ],
+        [
+          0.6,
+          0.0,
+          0.6
+        ],
+        [
+          0.5833,
+          0.0,
+          0.5833
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 0,
+      "still_allowed": 66,
+      "taken_out_of_top5_by_rules": [
+        "Mrs. Doubtfire",
+        "Hidden Figures"
+      ]
+    },
+    {
+      "id": "P06",
+      "patient": "62, cancer treatment, nauseous, likes action",
+      "top5": [
+        "Inception",
+        "Big Hero 6",
+        "Incredibles 2",
+        "Kung Fu Panda",
+        "Spider-Man: Into the Spider-Verse"
+      ],
+      "scores": [
+        [
+          0.9091,
+          0.0,
+          0.9091
+        ],
+        [
+          0.4181,
+          0.0,
+          0.4181
+        ],
+        [
+          0.4181,
+          0.0,
+          0.4181
+        ],
+        [
+          0.4181,
+          0.0,
+          0.4181
+        ],
+        [
+          0.4181,
+          0.0,
+          0.4181
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 0,
+      "still_allowed": 66,
+      "taken_out_of_top5_by_rules": [
+        "Avengers: Endgame",
+        "Jurassic Park",
+        "Saving Private Ryan",
+        "The Conjuring"
+      ]
+    },
+    {
+      "id": "P07",
+      "patient": "30, in hospital, photosensitive, likes sci-fi and action",
+      "top5": [
+        "The Martian",
+        "Kung Fu Panda",
+        "WALL-E",
+        "Apollo 13",
+        "Bambi"
+      ],
+      "scores": [
+        [
+          0.4318,
+          -0.15,
+          0.2818
+        ],
+        [
+          0.4181,
+          -0.15,
+          0.2681
+        ],
+        [
+          0.4181,
+          -0.15,
+          0.2681
+        ],
+        [
+          0.0,
+          -0.15,
+          -0.15
+        ],
+        [
+          0.0,
+          -0.15,
+          -0.15
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 16,
+      "still_allowed": 50,
+      "taken_out_of_top5_by_rules": [
+        "Avengers: Endgame",
+        "Inception",
+        "Spider-Man: Into the Spider-Verse",
+        "Interstellar",
+        "Jurassic Park"
+      ]
+    },
+    {
+      "id": "P08",
+      "patient": "8, in hospital, very tired, loves Frozen",
+      "top5": [
+        "Encanto",
+        "Mary Poppins",
+        "Dumbo",
+        "The Wizard of Oz",
+        "Coco"
+      ],
+      "scores": [
+        [
+          0.8544,
+          0.0,
+          0.8544
+        ],
+        [
+          0.8,
+          -0.15,
+          0.65
+        ],
+        [
+          0.6139,
+          0.0,
+          0.6139
+        ],
+        [
+          0.8,
+          -0.2,
+          0.6
+        ],
+        [
+          0.8544,
+          -0.3,
+          0.5544
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 4,
+      "still_allowed": 61,
+      "taken_out_of_top5_by_rules": []
+    },
+    {
+      "id": "P09",
+      "patient": "16, cancer treatment, very tired, likes horror",
+      "top5": [
+        "Coraline",
+        "Cars",
+        "Despicable Me",
+        "Dumbo",
+        "Encanto"
+      ],
+      "scores": [
+        [
+          0.4181,
+          -0.35,
+          0.0681
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 5,
+      "still_allowed": 61,
+      "taken_out_of_top5_by_rules": [
+        "The Conjuring",
+        "Inception",
+        "Jurassic Park",
+        "Apollo 13"
+      ]
+    },
+    {
+      "id": "P10",
+      "patient": "10, cancer treatment, bereaved and anxious",
+      "top5": [
+        "Cars",
+        "Finding Dory",
+        "Inside Out",
+        "Minions",
+        "Ponyo"
+      ],
+      "scores": [
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 23,
+      "still_allowed": 43,
+      "taken_out_of_top5_by_rules": [
+        "How to Train Your Dragon",
+        "Incredibles 2"
+      ]
+    },
+    {
+      "id": "P11",
+      "patient": "70, recovering from cancer, needs audio description",
+      "top5": [
+        "Chef",
+        "Hidden Figures",
+        "March of the Penguins",
+        "The Shawshank Redemption",
+        "Winged Migration"
+      ],
+      "scores": [
+        [
+          0.4545,
+          -0.2,
+          0.2545
+        ],
+        [
+          0.4545,
+          -0.2,
+          0.2545
+        ],
+        [
+          0.4545,
+          -0.2,
+          0.2545
+        ],
+        [
+          0.4545,
+          -0.2,
+          0.2545
+        ],
+        [
+          0.4545,
+          -0.2,
+          0.2545
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 0,
+      "still_allowed": 66,
+      "taken_out_of_top5_by_rules": [
+        "The Fault in Our Stars"
+      ]
+    },
+    {
+      "id": "P12",
+      "patient": "11, long-term illness, nauseous, photosensitive, bereaved",
+      "top5": [
+        "Matilda",
+        "The Princess Diaries",
+        "Despicable Me",
+        "Finding Dory",
+        "Inside Out"
+      ],
+      "scores": [
+        [
+          0.9091,
+          -0.15,
+          0.7591
+        ],
+        [
+          0.9091,
+          -0.15,
+          0.7591
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ],
+        [
+          0.8636,
+          -0.15,
+          0.7136
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 31,
+      "still_allowed": 35,
+      "taken_out_of_top5_by_rules": [
+        "Home Alone",
+        "Mrs. Doubtfire",
+        "Big Hero 6"
+      ]
+    },
+    {
+      "id": "P13",
+      "patient": "35, very tired, likes long sci-fi",
+      "top5": [
+        "Jurassic Park",
+        "The Martian",
+        "Spider-Man: Into the Spider-Verse",
+        "Cars",
+        "Finding Dory"
+      ],
+      "scores": [
+        [
+          0.9091,
+          -0.15,
+          0.7591
+        ],
+        [
+          0.9091,
+          -0.15,
+          0.7591
+        ],
+        [
+          0.8636,
+          -0.25,
+          0.6136
+        ],
+        [
+          0.4181,
+          0.0,
+          0.4181
+        ],
+        [
+          0.4181,
+          0.0,
+          0.4181
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 0,
+      "still_allowed": 66,
+      "taken_out_of_top5_by_rules": [
+        "Avengers: Endgame",
+        "Interstellar"
+      ]
+    },
+    {
+      "id": "P14",
+      "patient": "14, recovering from cancer, likes action",
+      "top5": [
+        "The Martian",
+        "Spider-Man: Into the Spider-Verse",
+        "Inception",
+        "Incredibles 2",
+        "Interstellar"
+      ],
+      "scores": [
+        [
+          0.6212,
+          0.0,
+          0.6212
+        ],
+        [
+          0.9318,
+          -0.5,
+          0.4318
+        ],
+        [
+          0.6212,
+          -0.2,
+          0.4212
+        ],
+        [
+          0.594,
+          -0.2,
+          0.394
+        ],
+        [
+          0.6212,
+          -0.3,
+          0.3212
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 5,
+      "still_allowed": 61,
+      "taken_out_of_top5_by_rules": [
+        "Avengers: Endgame",
+        "Jurassic Park"
+      ]
+    },
+    {
+      "id": "P15",
+      "patient": "30, no restrictions, same taste as P01 (for comparison)",
+      "top5": [
+        "Big Hero 6",
+        "Cars",
+        "Despicable Me",
+        "Finding Dory",
+        "Inside Out"
+      ],
+      "scores": [
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ],
+        [
+          0.8636,
+          0.0,
+          0.8636
+        ]
+      ],
+      "final_check": "passed",
+      "problems_found": {},
+      "removed_by_rules": 0,
+      "still_allowed": 66,
+      "taken_out_of_top5_by_rules": []
+    }
+  ]
+}

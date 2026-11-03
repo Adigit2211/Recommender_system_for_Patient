@@ -1,0 +1,3492 @@
+[
+  {
+    "title": "Toy Story",
+    "year": 1995,
+    "tmdb_id": 862,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 81,
+    "mpa_rating": "G",
+    "director": "John Lasseter",
+    "franchise": "Toy Story",
+    "tones": [
+      "funny",
+      "heartwarming",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Toy Story 3",
+    "year": 2010,
+    "tmdb_id": 10193,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 103,
+    "mpa_rating": "G",
+    "director": "Lee Unkrich",
+    "franchise": "Toy Story",
+    "tones": [
+      "heartwarming",
+      "adventurous",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "peril",
+        "abandonment"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Toy Story 5",
+    "year": 2026,
+    "tmdb_id": 1084244,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 102,
+    "mpa_rating": "PG",
+    "director": "Andrew Stanton",
+    "franchise": "Toy Story",
+    "tones": [
+      "funny",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "mild",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "community_site",
+        "url": "https://moviehealthcommunity.tumblr.com/tagged/Photosensitive%20Epilepsy",
+        "confidence": "medium",
+        "note": "Movie Health Community rated it 6/10 for flashing: camera flashes and flickering lights."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "community_site",
+    "tagging_confidence": "medium"
+  },
+  {
+    "title": "Finding Nemo",
+    "year": 2003,
+    "tmdb_id": 12,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 100,
+    "mpa_rating": "G",
+    "director": "Andrew Stanton",
+    "franchise": "Finding Nemo",
+    "tones": [
+      "adventurous",
+      "heartwarming",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "death_or_loss",
+        "peril",
+        "scary_creatures"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Finding Dory",
+    "year": 2016,
+    "tmdb_id": 127380,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 97,
+    "mpa_rating": "PG",
+    "director": "Andrew Stanton",
+    "franchise": "Finding Nemo",
+    "tones": [
+      "heartwarming",
+      "funny",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Inside Out",
+    "year": 2015,
+    "tmdb_id": 150540,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Adventure"
+    ],
+    "runtime_minutes": 95,
+    "mpa_rating": "PG",
+    "director": "Pete Docter",
+    "franchise": "Inside Out",
+    "tones": [
+      "thoughtful",
+      "heartwarming",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "emotional_sadness"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Up",
+    "year": 2009,
+    "tmdb_id": 14160,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 96,
+    "mpa_rating": "PG",
+    "director": "Pete Docter",
+    "franchise": "Up",
+    "tones": [
+      "heartwarming",
+      "adventurous",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Coco",
+    "year": 2017,
+    "tmdb_id": 354912,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Music",
+      "Fantasy"
+    ],
+    "runtime_minutes": 105,
+    "mpa_rating": "PG",
+    "director": "Lee Unkrich",
+    "franchise": "Coco",
+    "tones": [
+      "musical",
+      "heartwarming",
+      "magical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Incredibles",
+    "year": 2004,
+    "tmdb_id": 9806,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 115,
+    "mpa_rating": "PG",
+    "director": "Brad Bird",
+    "franchise": "The Incredibles",
+    "tones": [
+      "exciting",
+      "funny",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "violence",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Incredibles 2",
+    "year": 2018,
+    "tmdb_id": 260513,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 118,
+    "mpa_rating": "PG",
+    "director": "Brad Bird",
+    "franchise": "The Incredibles",
+    "tones": [
+      "exciting",
+      "funny",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "confirmed_present",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "violence",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "news_report",
+        "url": "https://www.slashfilm.com/incredibles-2-warning/",
+        "confidence": "high",
+        "note": "Disney asked cinemas to post a strobe warning in June 2018; one scene has over 90 seconds of strobe."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "news_report",
+    "tagging_confidence": "high"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "tmdb_id": 324857,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime_minutes": 117,
+    "mpa_rating": "PG",
+    "director": "Bob Persichetti",
+    "franchise": "Spider-Man",
+    "tones": [
+      "exciting",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "dense",
+      "theme_flags": [
+        "violence",
+        "peril",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Big Hero 6",
+    "year": 2014,
+    "tmdb_id": 177572,
+    "genres": [
+      "Animation",
+      "Action",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 102,
+    "mpa_rating": "PG",
+    "director": "Don Hall",
+    "franchise": "Big Hero 6",
+    "tones": [
+      "heartwarming",
+      "exciting",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "death_or_loss",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Frozen",
+    "year": 2013,
+    "tmdb_id": 109445,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Music"
+    ],
+    "runtime_minutes": 102,
+    "mpa_rating": "PG",
+    "director": "Chris Buck",
+    "franchise": "Frozen",
+    "tones": [
+      "musical",
+      "magical",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "death_or_loss",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Moana",
+    "year": 2016,
+    "tmdb_id": 277834,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family",
+      "Music"
+    ],
+    "runtime_minutes": 107,
+    "mpa_rating": "PG",
+    "director": "Ron Clements",
+    "franchise": "Moana",
+    "tones": [
+      "musical",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "peril",
+        "scary_creatures",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Zootopia",
+    "year": 2016,
+    "tmdb_id": 269149,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Family"
+    ],
+    "runtime_minutes": 109,
+    "mpa_rating": "PG",
+    "director": "Byron Howard",
+    "franchise": "Zootopia",
+    "tones": [
+      "funny",
+      "thoughtful",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Shrek",
+    "year": 2001,
+    "tmdb_id": 808,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Fantasy",
+      "Family"
+    ],
+    "runtime_minutes": 90,
+    "mpa_rating": "PG",
+    "director": "Andrew Adamson",
+    "franchise": "Shrek",
+    "tones": [
+      "funny",
+      "magical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "year": 2010,
+    "tmdb_id": 10191,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 98,
+    "mpa_rating": "PG",
+    "director": "Chris Sanders",
+    "franchise": "How to Train Your Dragon",
+    "tones": [
+      "adventurous",
+      "heartwarming",
+      "exciting"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "peril",
+        "violence"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Kung Fu Panda",
+    "year": 2008,
+    "tmdb_id": 9502,
+    "genres": [
+      "Animation",
+      "Action",
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 90,
+    "mpa_rating": "PG",
+    "director": "Mark Osborne",
+    "franchise": "Kung Fu Panda",
+    "tones": [
+      "funny",
+      "exciting"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "violence"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Despicable Me",
+    "year": 2010,
+    "tmdb_id": 20352,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Crime"
+    ],
+    "runtime_minutes": 95,
+    "mpa_rating": "PG",
+    "director": "Pierre Coffin",
+    "franchise": "Despicable Me",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Minions",
+    "year": 2015,
+    "tmdb_id": 211672,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 91,
+    "mpa_rating": "PG",
+    "director": "Pierre Coffin",
+    "franchise": "Despicable Me",
+    "tones": [
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Ratatouille",
+    "year": 2007,
+    "tmdb_id": 2062,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "runtime_minutes": 111,
+    "mpa_rating": "G",
+    "director": "Brad Bird",
+    "franchise": "Ratatouille",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "moderate",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "WALL-E",
+    "year": 2008,
+    "tmdb_id": 10681,
+    "genres": [
+      "Animation",
+      "Science Fiction",
+      "Family",
+      "Romance"
+    ],
+    "runtime_minutes": 98,
+    "mpa_rating": "G",
+    "director": "Andrew Stanton",
+    "franchise": "WALL-E",
+    "tones": [
+      "calm",
+      "heartwarming",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Monsters, Inc.",
+    "year": 2001,
+    "tmdb_id": 585,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "runtime_minutes": 92,
+    "mpa_rating": "G",
+    "director": "Pete Docter",
+    "franchise": "Monsters, Inc.",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "scary_creatures"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Cars",
+    "year": 2006,
+    "tmdb_id": 920,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Adventure"
+    ],
+    "runtime_minutes": 117,
+    "mpa_rating": "G",
+    "director": "John Lasseter",
+    "franchise": "Cars",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "tmdb_id": 8587,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama",
+      "Family"
+    ],
+    "runtime_minutes": 89,
+    "mpa_rating": "G",
+    "director": "Roger Allers",
+    "franchise": "The Lion King",
+    "tones": [
+      "musical",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "high",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "death_or_loss",
+        "violence"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Bambi",
+    "year": 1942,
+    "tmdb_id": 3170,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Family"
+    ],
+    "runtime_minutes": 70,
+    "mpa_rating": "G",
+    "director": "David Hand",
+    "franchise": "Bambi",
+    "tones": [
+      "calm",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "high",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Dumbo",
+    "year": 1941,
+    "tmdb_id": 11360,
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "runtime_minutes": 64,
+    "mpa_rating": "G",
+    "director": "Ben Sharpsteen",
+    "franchise": "Dumbo",
+    "tones": [
+      "heartwarming",
+      "musical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "abandonment"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "year": 1988,
+    "tmdb_id": 8392,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "runtime_minutes": 86,
+    "mpa_rating": "G",
+    "director": "Hayao Miyazaki",
+    "franchise": "Studio Ghibli",
+    "tones": [
+      "calm",
+      "magical",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "serious_illness_subplot"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2001,
+    "tmdb_id": 129,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure",
+      "Family"
+    ],
+    "runtime_minutes": 125,
+    "mpa_rating": "PG",
+    "director": "Hayao Miyazaki",
+    "franchise": "Studio Ghibli",
+    "tones": [
+      "magical",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "scary_creatures",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Ponyo",
+    "year": 2008,
+    "tmdb_id": 12429,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family",
+      "Adventure"
+    ],
+    "runtime_minutes": 100,
+    "mpa_rating": "G",
+    "director": "Hayao Miyazaki",
+    "franchise": "Studio Ghibli",
+    "tones": [
+      "calm",
+      "magical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Encanto",
+    "year": 2021,
+    "tmdb_id": 568124,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "runtime_minutes": 102,
+    "mpa_rating": "PG",
+    "director": "Jared Bush",
+    "franchise": "Encanto",
+    "tones": [
+      "musical",
+      "magical",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "family_stress"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Luca",
+    "year": 2021,
+    "tmdb_id": 508943,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Adventure"
+    ],
+    "runtime_minutes": 95,
+    "mpa_rating": "PG",
+    "director": "Enrico Casarosa",
+    "franchise": "Luca",
+    "tones": [
+      "calm",
+      "heartwarming",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Soul",
+    "year": 2020,
+    "tmdb_id": 508442,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "runtime_minutes": 101,
+    "mpa_rating": "PG",
+    "director": "Pete Docter",
+    "franchise": "Soul",
+    "tones": [
+      "thoughtful",
+      "musical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "death_or_loss",
+        "existential"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Coraline",
+    "year": 2009,
+    "tmdb_id": 14836,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Family",
+      "Horror"
+    ],
+    "runtime_minutes": 100,
+    "mpa_rating": "PG",
+    "director": "Henry Selick",
+    "franchise": "Coraline",
+    "tones": [
+      "scary",
+      "magical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "high",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "scary_creatures",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Paddington",
+    "year": 2014,
+    "tmdb_id": 116149,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime_minutes": 95,
+    "mpa_rating": "PG",
+    "director": "Paul King",
+    "franchise": "Paddington",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Paddington 2",
+    "year": 2017,
+    "tmdb_id": 346648,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Adventure",
+      "Fantasy"
+    ],
+    "runtime_minutes": 104,
+    "mpa_rating": "PG",
+    "director": "Paul King",
+    "franchise": "Paddington",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Princess Bride",
+    "year": 1987,
+    "tmdb_id": 2493,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Comedy",
+      "Romance"
+    ],
+    "runtime_minutes": 99,
+    "mpa_rating": "PG",
+    "director": "Rob Reiner",
+    "franchise": "The Princess Bride",
+    "tones": [
+      "funny",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "violence"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Home Alone",
+    "year": 1990,
+    "tmdb_id": 771,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "runtime_minutes": 103,
+    "mpa_rating": "PG",
+    "director": "Chris Columbus",
+    "franchise": "Home Alone",
+    "tones": [
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "violence"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Matilda",
+    "year": 1996,
+    "tmdb_id": 10830,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "runtime_minutes": 98,
+    "mpa_rating": "PG",
+    "director": "Danny DeVito",
+    "franchise": "Matilda",
+    "tones": [
+      "funny",
+      "magical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "bullying"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "year": 1939,
+    "tmdb_id": 630,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "runtime_minutes": 102,
+    "mpa_rating": "G",
+    "director": "Victor Fleming",
+    "franchise": "The Wizard of Oz",
+    "tones": [
+      "musical",
+      "magical",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "scary_creatures",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Mary Poppins",
+    "year": 1964,
+    "tmdb_id": 433,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Fantasy",
+      "Music"
+    ],
+    "runtime_minutes": 139,
+    "mpa_rating": "G",
+    "director": "Robert Stevenson",
+    "franchise": "Mary Poppins",
+    "tones": [
+      "musical",
+      "magical",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Sound of Music",
+    "year": 1965,
+    "tmdb_id": 15121,
+    "genres": [
+      "Drama",
+      "Family",
+      "Music",
+      "Romance"
+    ],
+    "runtime_minutes": 174,
+    "mpa_rating": "G",
+    "director": "Robert Wise",
+    "franchise": "The Sound of Music",
+    "tones": [
+      "musical",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "war",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "tmdb_id": 671,
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "runtime_minutes": 152,
+    "mpa_rating": "PG",
+    "director": "Chris Columbus",
+    "franchise": "Harry Potter",
+    "tones": [
+      "magical",
+      "adventurous"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "peril",
+        "scary_creatures",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Wonder",
+    "year": 2017,
+    "tmdb_id": 406997,
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "runtime_minutes": 113,
+    "mpa_rating": "PG",
+    "director": "Stephen Chbosky",
+    "franchise": "Wonder",
+    "tones": [
+      "heartwarming",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "medical_care",
+        "bullying"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "March of the Penguins",
+    "year": 2005,
+    "tmdb_id": 1667,
+    "genres": [
+      "Documentary",
+      "Family"
+    ],
+    "runtime_minutes": 80,
+    "mpa_rating": "G",
+    "director": "Luc Jacquet",
+    "franchise": "March of the Penguins",
+    "tones": [
+      "calm",
+      "educational"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Winged Migration",
+    "year": 2001,
+    "tmdb_id": 11516,
+    "genres": [
+      "Documentary",
+      "Family"
+    ],
+    "runtime_minutes": 89,
+    "mpa_rating": "G",
+    "director": "Jacques Perrin",
+    "franchise": "Winged Migration",
+    "tones": [
+      "calm",
+      "educational"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Princess Diaries",
+    "year": 2001,
+    "tmdb_id": 9880,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Romance"
+    ],
+    "runtime_minutes": 115,
+    "mpa_rating": "G",
+    "director": "Garry Marshall",
+    "franchise": "The Princess Diaries",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Mrs. Doubtfire",
+    "year": 1993,
+    "tmdb_id": 788,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "runtime_minutes": 125,
+    "mpa_rating": "PG-13",
+    "director": "Chris Columbus",
+    "franchise": "Mrs. Doubtfire",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "family_stress"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Hidden Figures",
+    "year": 2016,
+    "tmdb_id": 381284,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "runtime_minutes": 127,
+    "mpa_rating": "PG",
+    "director": "Theodore Melfi",
+    "franchise": "Hidden Figures",
+    "tones": [
+      "heartwarming",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "prejudice"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Martian",
+    "year": 2015,
+    "tmdb_id": 286217,
+    "genres": [
+      "Drama",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "runtime_minutes": 141,
+    "mpa_rating": "PG-13",
+    "director": "Ridley Scott",
+    "franchise": "The Martian",
+    "tones": [
+      "funny",
+      "thoughtful",
+      "exciting"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Apollo 13",
+    "year": 1995,
+    "tmdb_id": 568,
+    "genres": [
+      "Drama",
+      "History",
+      "Adventure"
+    ],
+    "runtime_minutes": 140,
+    "mpa_rating": "PG",
+    "director": "Ron Howard",
+    "franchise": "Apollo 13",
+    "tones": [
+      "thoughtful",
+      "exciting"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": 1952,
+    "tmdb_id": 872,
+    "genres": [
+      "Comedy",
+      "Music",
+      "Romance"
+    ],
+    "runtime_minutes": 103,
+    "mpa_rating": "G",
+    "director": "Stanley Donen",
+    "franchise": "Singin' in the Rain",
+    "tones": [
+      "musical",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Mamma Mia!",
+    "year": 2008,
+    "tmdb_id": 11631,
+    "genres": [
+      "Comedy",
+      "Music",
+      "Romance"
+    ],
+    "runtime_minutes": 108,
+    "mpa_rating": "PG-13",
+    "director": "Phyllida Lloyd",
+    "franchise": "Mamma Mia!",
+    "tones": [
+      "musical",
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "tmdb_id": 313369,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "runtime_minutes": 129,
+    "mpa_rating": "PG-13",
+    "director": "Damien Chazelle",
+    "franchise": "La La Land",
+    "tones": [
+      "musical",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "low",
+      "pacing_complexity": "moderate",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Groundhog Day",
+    "year": 1993,
+    "tmdb_id": 137,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "runtime_minutes": 101,
+    "mpa_rating": "PG",
+    "director": "Harold Ramis",
+    "franchise": "Groundhog Day",
+    "tones": [
+      "funny",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "self_harm_reference"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "tmdb_id": 13,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "runtime_minutes": 142,
+    "mpa_rating": "PG-13",
+    "director": "Robert Zemeckis",
+    "franchise": "Forrest Gump",
+    "tones": [
+      "heartwarming",
+      "thoughtful",
+      "funny"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "war",
+        "death_or_loss",
+        "serious_illness_subplot"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "tmdb_id": 329,
+    "genres": [
+      "Adventure",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtime_minutes": 127,
+    "mpa_rating": "PG-13",
+    "director": "Steven Spielberg",
+    "franchise": "Jurassic Park",
+    "tones": [
+      "exciting",
+      "scary"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "high",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "violence",
+        "scary_creatures",
+        "peril",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "tmdb_id": 299534,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "runtime_minutes": 181,
+    "mpa_rating": "PG-13",
+    "director": "Anthony Russo",
+    "franchise": "Marvel Cinematic Universe",
+    "tones": [
+      "exciting"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "high",
+      "pacing_complexity": "dense",
+      "theme_flags": [
+        "violence",
+        "death_or_loss",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "tmdb_id": 157336,
+    "genres": [
+      "Science Fiction",
+      "Drama",
+      "Adventure"
+    ],
+    "runtime_minutes": 169,
+    "mpa_rating": "PG-13",
+    "director": "Christopher Nolan",
+    "franchise": "Interstellar",
+    "tones": [
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "dense",
+      "theme_flags": [
+        "death_or_loss",
+        "existential",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "tmdb_id": 27205,
+    "genres": [
+      "Action",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "runtime_minutes": 148,
+    "mpa_rating": "PG-13",
+    "director": "Christopher Nolan",
+    "franchise": "Inception",
+    "tones": [
+      "exciting",
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "medium",
+      "pacing_complexity": "dense",
+      "theme_flags": [
+        "violence",
+        "peril"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "tmdb_id": 120,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "runtime_minutes": 179,
+    "mpa_rating": "PG-13",
+    "director": "Peter Jackson",
+    "franchise": "The Lord of the Rings",
+    "tones": [
+      "adventurous",
+      "magical"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "high",
+      "pacing_complexity": "dense",
+      "theme_flags": [
+        "violence",
+        "scary_creatures",
+        "peril",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "year": 2014,
+    "tmdb_id": 222935,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "runtime_minutes": 126,
+    "mpa_rating": "PG-13",
+    "director": "Josh Boone",
+    "franchise": "The Fault in Our Stars",
+    "tones": [
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "high",
+      "pacing_complexity": "simple",
+      "theme_flags": [
+        "central_serious_illness",
+        "death_or_loss",
+        "medical_care"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "tmdb_id": 278,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "runtime_minutes": 142,
+    "mpa_rating": "R",
+    "director": "Frank Darabont",
+    "franchise": "The Shawshank Redemption",
+    "tones": [
+      "thoughtful"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "high",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "violence"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Chef",
+    "year": 2014,
+    "tmdb_id": 212778,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime_minutes": 114,
+    "mpa_rating": "R",
+    "director": "Jon Favreau",
+    "franchise": "Chef",
+    "tones": [
+      "funny",
+      "heartwarming"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "none",
+      "thematic_intensity": "low",
+      "pacing_complexity": "simple",
+      "theme_flags": [],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "No known flashing scenes."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "The Conjuring",
+    "year": 2013,
+    "tmdb_id": 138843,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "runtime_minutes": 112,
+    "mpa_rating": "R",
+    "director": "James Wan",
+    "franchise": "The Conjuring",
+    "tones": [
+      "scary"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "high",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "scary_creatures",
+        "violence",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "tmdb_id": 857,
+    "genres": [
+      "Drama",
+      "War",
+      "Action"
+    ],
+    "runtime_minutes": 169,
+    "mpa_rating": "R",
+    "director": "Steven Spielberg",
+    "franchise": "Saving Private Ryan",
+    "tones": [
+      "exciting"
+    ],
+    "sensitivity_tags": {
+      "flashing_strobe_content": "unknown",
+      "thematic_intensity": "high",
+      "pacing_complexity": "moderate",
+      "theme_flags": [
+        "war",
+        "violence",
+        "visceral_gore",
+        "death_or_loss"
+      ],
+      "accessibility": {
+        "subtitles_available": null,
+        "audio_description_available": null
+      }
+    },
+    "provenance": {
+      "core_metadata": {
+        "source": "curated_list",
+        "metadata_verified": false
+      },
+      "flashing": {
+        "source": "general_knowledge",
+        "url": null,
+        "confidence": "low",
+        "note": "Flashing not known; lots of action or bright effects."
+      },
+      "theme_pacing_tones": {
+        "source": "general_knowledge",
+        "confidence": "medium"
+      },
+      "accessibility": {
+        "source": "not_listed",
+        "confidence": "none"
+      }
+    },
+    "tagging_source": "general_knowledge",
+    "tagging_confidence": "low"
+  }
+]

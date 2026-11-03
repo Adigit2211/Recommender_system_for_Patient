@@ -1,0 +1,959 @@
+{
+  "recommendations": [
+    {
+      "title": "Despicable Me",
+      "year": 2010,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Crime"
+      ],
+      "runtime_minutes": 95,
+      "mpa_rating": "PG",
+      "franchise": "Despicable Me",
+      "director": "Pierre Coffin",
+      "taste_score": 0.8636,
+      "taste_breakdown": {
+        "genre_match": {
+          "raw": 1.0,
+          "detail": "matched 2/2 preferred genres: comedy, animation",
+          "weight": 0.7273,
+          "contribution": 0.7273
+        },
+        "genre_focus": {
+          "raw": 0.5,
+          "detail": "how much of the film is the preferred genres (2 of 4 genres overlap)",
+          "weight": 0.2727,
+          "contribution": 0.1363
+        }
+      },
+      "penalty_total": -0.15,
+      "soft_penalties_applied": [
+        {
+          "rule_id": "R-04",
+          "name": "Light-sensitive patient, no flashing known but not confirmed",
+          "penalty": -0.15,
+          "justification_type": "inferred",
+          "source": "Own reasoning."
+        }
+      ],
+      "final_score": 0.7136,
+      "rules_evaluated": [
+        {
+          "rule_id": "R-01",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-02",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-03",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-04",
+          "outcome": "soft_penalty",
+          "penalty": -0.15
+        },
+        {
+          "rule_id": "R-05",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-06",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-07",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-08",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-10",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-11",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-12",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-13",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-14",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-15",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-18",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-19",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-20",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-21",
+          "outcome": "pass",
+          "penalty": 0.0
+        }
+      ],
+      "flashing_tag": "none",
+      "weak_taste_match": false,
+      "warnings": [],
+      "rank": 1,
+      "explanation": "Taste match is 0.86 out of 1: matched 2/2 preferred genres: comedy, animation. Marked down because of: light-sensitive patient, no flashing known but not confirmed (R-04, my own reasoning) -0.15. Final score 0.71 (taste 0.86, markdowns -0.15)."
+    },
+    {
+      "title": "Finding Dory",
+      "year": 2016,
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family"
+      ],
+      "runtime_minutes": 97,
+      "mpa_rating": "PG",
+      "franchise": "Finding Nemo",
+      "director": "Andrew Stanton",
+      "taste_score": 0.8636,
+      "taste_breakdown": {
+        "genre_match": {
+          "raw": 1.0,
+          "detail": "matched 2/2 preferred genres: comedy, animation",
+          "weight": 0.7273,
+          "contribution": 0.7273
+        },
+        "genre_focus": {
+          "raw": 0.5,
+          "detail": "how much of the film is the preferred genres (2 of 4 genres overlap)",
+          "weight": 0.2727,
+          "contribution": 0.1363
+        }
+      },
+      "penalty_total": -0.15,
+      "soft_penalties_applied": [
+        {
+          "rule_id": "R-04",
+          "name": "Light-sensitive patient, no flashing known but not confirmed",
+          "penalty": -0.15,
+          "justification_type": "inferred",
+          "source": "Own reasoning."
+        }
+      ],
+      "final_score": 0.7136,
+      "rules_evaluated": [
+        {
+          "rule_id": "R-01",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-02",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-03",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-04",
+          "outcome": "soft_penalty",
+          "penalty": -0.15
+        },
+        {
+          "rule_id": "R-05",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-06",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-07",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-08",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-10",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-11",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-12",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-13",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-14",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-15",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-18",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-19",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-20",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-21",
+          "outcome": "pass",
+          "penalty": 0.0
+        }
+      ],
+      "flashing_tag": "none",
+      "weak_taste_match": false,
+      "warnings": [],
+      "rank": 2,
+      "explanation": "Taste match is 0.86 out of 1: matched 2/2 preferred genres: comedy, animation. Marked down because of: light-sensitive patient, no flashing known but not confirmed (R-04, my own reasoning) -0.15. Final score 0.71 (taste 0.86, markdowns -0.15)."
+    },
+    {
+      "title": "Inside Out",
+      "year": 2015,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Adventure"
+      ],
+      "runtime_minutes": 95,
+      "mpa_rating": "PG",
+      "franchise": "Inside Out",
+      "director": "Pete Docter",
+      "taste_score": 0.8636,
+      "taste_breakdown": {
+        "genre_match": {
+          "raw": 1.0,
+          "detail": "matched 2/2 preferred genres: comedy, animation",
+          "weight": 0.7273,
+          "contribution": 0.7273
+        },
+        "genre_focus": {
+          "raw": 0.5,
+          "detail": "how much of the film is the preferred genres (2 of 4 genres overlap)",
+          "weight": 0.2727,
+          "contribution": 0.1363
+        }
+      },
+      "penalty_total": -0.15,
+      "soft_penalties_applied": [
+        {
+          "rule_id": "R-04",
+          "name": "Light-sensitive patient, no flashing known but not confirmed",
+          "penalty": -0.15,
+          "justification_type": "inferred",
+          "source": "Own reasoning."
+        }
+      ],
+      "final_score": 0.7136,
+      "rules_evaluated": [
+        {
+          "rule_id": "R-01",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-02",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-03",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-04",
+          "outcome": "soft_penalty",
+          "penalty": -0.15
+        },
+        {
+          "rule_id": "R-05",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-06",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-07",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-08",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-10",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-11",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-12",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-13",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-14",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-15",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-18",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-19",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-20",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-21",
+          "outcome": "pass",
+          "penalty": 0.0
+        }
+      ],
+      "flashing_tag": "none",
+      "weak_taste_match": false,
+      "warnings": [],
+      "rank": 3,
+      "explanation": "Taste match is 0.86 out of 1: matched 2/2 preferred genres: comedy, animation. Marked down because of: light-sensitive patient, no flashing known but not confirmed (R-04, my own reasoning) -0.15. Final score 0.71 (taste 0.86, markdowns -0.15)."
+    },
+    {
+      "title": "Ratatouille",
+      "year": 2007,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "runtime_minutes": 111,
+      "mpa_rating": "G",
+      "franchise": "Ratatouille",
+      "director": "Brad Bird",
+      "taste_score": 0.8636,
+      "taste_breakdown": {
+        "genre_match": {
+          "raw": 1.0,
+          "detail": "matched 2/2 preferred genres: comedy, animation",
+          "weight": 0.7273,
+          "contribution": 0.7273
+        },
+        "genre_focus": {
+          "raw": 0.5,
+          "detail": "how much of the film is the preferred genres (2 of 4 genres overlap)",
+          "weight": 0.2727,
+          "contribution": 0.1363
+        }
+      },
+      "penalty_total": -0.15,
+      "soft_penalties_applied": [
+        {
+          "rule_id": "R-04",
+          "name": "Light-sensitive patient, no flashing known but not confirmed",
+          "penalty": -0.15,
+          "justification_type": "inferred",
+          "source": "Own reasoning."
+        }
+      ],
+      "final_score": 0.7136,
+      "rules_evaluated": [
+        {
+          "rule_id": "R-01",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-02",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-03",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-04",
+          "outcome": "soft_penalty",
+          "penalty": -0.15
+        },
+        {
+          "rule_id": "R-05",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-06",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-07",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-08",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-10",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-11",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-12",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-13",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-14",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-15",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-18",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-19",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-20",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-21",
+          "outcome": "pass",
+          "penalty": 0.0
+        }
+      ],
+      "flashing_tag": "none",
+      "weak_taste_match": false,
+      "warnings": [],
+      "rank": 4,
+      "explanation": "Taste match is 0.86 out of 1: matched 2/2 preferred genres: comedy, animation. Marked down because of: light-sensitive patient, no flashing known but not confirmed (R-04, my own reasoning) -0.15. Final score 0.71 (taste 0.86, markdowns -0.15)."
+    },
+    {
+      "title": "Shrek",
+      "year": 2001,
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Fantasy",
+        "Family"
+      ],
+      "runtime_minutes": 90,
+      "mpa_rating": "PG",
+      "franchise": "Shrek",
+      "director": "Andrew Adamson",
+      "taste_score": 0.8636,
+      "taste_breakdown": {
+        "genre_match": {
+          "raw": 1.0,
+          "detail": "matched 2/2 preferred genres: comedy, animation",
+          "weight": 0.7273,
+          "contribution": 0.7273
+        },
+        "genre_focus": {
+          "raw": 0.5,
+          "detail": "how much of the film is the preferred genres (2 of 4 genres overlap)",
+          "weight": 0.2727,
+          "contribution": 0.1363
+        }
+      },
+      "penalty_total": -0.15,
+      "soft_penalties_applied": [
+        {
+          "rule_id": "R-04",
+          "name": "Light-sensitive patient, no flashing known but not confirmed",
+          "penalty": -0.15,
+          "justification_type": "inferred",
+          "source": "Own reasoning."
+        }
+      ],
+      "final_score": 0.7136,
+      "rules_evaluated": [
+        {
+          "rule_id": "R-01",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-02",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-03",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-04",
+          "outcome": "soft_penalty",
+          "penalty": -0.15
+        },
+        {
+          "rule_id": "R-05",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-06",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-07",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-08",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-10",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-11",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-12",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-13",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-14",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-15",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-18",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-19",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-20",
+          "outcome": "pass",
+          "penalty": 0.0
+        },
+        {
+          "rule_id": "R-21",
+          "outcome": "pass",
+          "penalty": 0.0
+        }
+      ],
+      "flashing_tag": "none",
+      "weak_taste_match": false,
+      "warnings": [],
+      "rank": 5,
+      "explanation": "Taste match is 0.86 out of 1: matched 2/2 preferred genres: comedy, animation. Marked down because of: light-sensitive patient, no flashing known but not confirmed (R-04, my own reasoning) -0.15. Final score 0.71 (taste 0.86, markdowns -0.15)."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Toy Story 5",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-03",
+          "name": "Light-sensitive patient, minor flashing reported",
+          "justification_type": "inferred_from_source",
+          "source": "ITC para 2 (flashing over 5 seconds may be a risk even within limits); EF (triggers vary by person)"
+        }
+      ]
+    },
+    {
+      "title": "The Incredibles",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Incredibles 2",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-01",
+          "name": "Light-sensitive patient, film has flashing",
+          "justification_type": "sourced",
+          "source": "EF; ITC para 3-3.1.1; OFCOM212"
+        }
+      ]
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Big Hero 6",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Cars",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Dumbo",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Mamma Mia!",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "La La Land",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Jurassic Park",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Avengers: Endgame",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Interstellar",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "Inception",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        }
+      ]
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-08",
+          "name": "Seriously ill child, film about serious illness",
+          "justification_type": "inferred_from_source",
+          "source": "CWI item 6 (no themes such as violence, death, illness, medical care)"
+        }
+      ]
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-05",
+          "name": "Under 17, R-rated film",
+          "justification_type": "inferred_from_source",
+          "source": "MPA rules p.8: 'Restricted. Children Under 17 Require Accompanying Parent or Adult Guardian'"
+        }
+      ]
+    },
+    {
+      "title": "Chef",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-05",
+          "name": "Under 17, R-rated film",
+          "justification_type": "inferred_from_source",
+          "source": "MPA rules p.8: 'Restricted. Children Under 17 Require Accompanying Parent or Adult Guardian'"
+        }
+      ]
+    },
+    {
+      "title": "The Conjuring",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        },
+        {
+          "rule_id": "R-05",
+          "name": "Under 17, R-rated film",
+          "justification_type": "inferred_from_source",
+          "source": "MPA rules p.8: 'Restricted. Children Under 17 Require Accompanying Parent or Adult Guardian'"
+        }
+      ]
+    },
+    {
+      "title": "Saving Private Ryan",
+      "hard_rules_fired": [
+        {
+          "rule_id": "R-02",
+          "name": "Light-sensitive patient, flashing unknown",
+          "justification_type": "inferred_from_source",
+          "source": "OFCOM212 ('maintain a low level of risk'); ITC para 2"
+        },
+        {
+          "rule_id": "R-05",
+          "name": "Under 17, R-rated film",
+          "justification_type": "inferred_from_source",
+          "source": "MPA rules p.8: 'Restricted. Children Under 17 Require Accompanying Parent or Adult Guardian'"
+        }
+      ]
+    }
+  ],
+  "rules_applicable_to_this_patient": [
+    "R-01",
+    "R-02",
+    "R-03",
+    "R-04",
+    "R-05",
+    "R-06",
+    "R-07",
+    "R-08",
+    "R-10",
+    "R-11",
+    "R-12",
+    "R-13",
+    "R-14",
+    "R-15",
+    "R-18",
+    "R-19",
+    "R-20",
+    "R-21"
+  ],
+  "rules_not_applicable_to_this_patient": [
+    "R-09",
+    "R-16",
+    "R-17",
+    "R-22",
+    "R-23",
+    "R-24",
+    "R-25",
+    "R-26"
+  ],
+  "summary": {
+    "candidates_considered": 66,
+    "hard_excluded": 19,
+    "eligible_after_veto": 47,
+    "eligible_with_soft_penalty": 47
+  },
+  "diversity": {
+    "enabled": true,
+    "log": [
+      "skipped 'Minions' (Despicable Me / Pierre Coffin already in the list)"
+    ]
+  },
+  "audit": {
+    "veto_check": "passed",
+    "hard_rule_violations_in_results": 0
+  },
+  "warnings": []
+}
